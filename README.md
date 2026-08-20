@@ -151,7 +151,7 @@ All five controls currently pass with **zero issues requiring review**.
 ## Project structure
 
 ```text
-manufacturing_bi_lab/
+manufacturing-operations-analytics/
 ├── assets/
 │   ├── executive-overview.png
 │   └── root-cause-analysis.png

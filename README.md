@@ -186,10 +186,21 @@ The repository includes a ready-to-query SQLite database at `data/manufacturing.
 ```bash
 sqlite3 -header -column data/manufacturing.db \
   < sql/analysis/05_overall_performance.sql
+```
+
+### Run the data-quality report
+
+```bash
+python3 src/quality_report.py
+```
+
+### Export critical exceptions
 
 ```bash
 python3 src/export_critical_exceptions.py
 ```
+
+This creates `output/critical_exceptions.csv`.
 
 ## Skills demonstrated
 

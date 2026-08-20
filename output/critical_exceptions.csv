@@ -1,0 +1,27 @@
+date_key,day_name,line_id,line_name,area,shift,production_quantity,scrap_quantity,daily_scrap_rate_pct,downtime_minutes,downtime_category,defect_category,performance_status
+2025-08-01,Friday,L05,Line 5 - Finishing,Finishing,Shift 3,247,21,8.5,87,Planned Maintenance,Packaging Defect,Critical
+2025-08-03,Sunday,L05,Line 5 - Finishing,Finishing,Shift 3,94,6,6.38,135,Electrical Fault,Surface Defect,Critical
+2025-08-04,Monday,L05,Line 5 - Finishing,Finishing,Shift 3,205,17,8.29,126,Mechanical Failure,Surface Defect,Critical
+2025-08-05,Tuesday,L05,Line 5 - Finishing,Finishing,Shift 3,270,22,8.15,84,Changeover,Surface Defect,Critical
+2025-08-06,Wednesday,L05,Line 5 - Finishing,Finishing,Shift 3,218,19,8.72,128,Material Shortage,Surface Defect,Critical
+2025-08-07,Thursday,L05,Line 5 - Finishing,Finishing,Shift 3,220,21,9.55,108,Mechanical Failure,Labeling Error,Critical
+2025-08-08,Friday,L05,Line 5 - Finishing,Finishing,Shift 3,250,20,8.0,95,Mechanical Failure,Surface Defect,Critical
+2025-08-09,Saturday,L05,Line 5 - Finishing,Finishing,Shift 3,177,13,7.34,105,Material Shortage,Assembly Error,Critical
+2025-08-10,Sunday,L05,Line 5 - Finishing,Finishing,Shift 3,84,5,5.95,138,Electrical Fault,Material Contamination,Critical
+2025-08-11,Monday,L05,Line 5 - Finishing,Finishing,Shift 3,270,23,8.52,69,Mechanical Failure,Material Contamination,Critical
+2025-08-12,Tuesday,L05,Line 5 - Finishing,Finishing,Shift 3,241,17,7.05,107,Changeover,Surface Defect,Critical
+2025-08-13,Wednesday,L05,Line 5 - Finishing,Finishing,Shift 3,245,19,7.76,110,Operator Shortage,Material Contamination,Critical
+2025-08-16,Saturday,L05,Line 5 - Finishing,Finishing,Shift 3,148,9,6.08,135,Electrical Fault,Surface Defect,Critical
+2025-08-17,Sunday,L05,Line 5 - Finishing,Finishing,Shift 3,82,7,8.54,138,Mechanical Failure,Dimension Out of Spec,Critical
+2025-08-18,Monday,L05,Line 5 - Finishing,Finishing,Shift 3,250,21,8.4,87,Electrical Fault,Packaging Defect,Critical
+2025-08-19,Tuesday,L05,Line 5 - Finishing,Finishing,Shift 3,245,20,8.16,99,Planned Maintenance,Surface Defect,Critical
+2025-08-20,Wednesday,L05,Line 5 - Finishing,Finishing,Shift 3,263,23,8.75,84,Material Shortage,Material Contamination,Critical
+2025-08-21,Thursday,L05,Line 5 - Finishing,Finishing,Shift 3,232,19,8.19,94,Quality Hold,Surface Defect,Critical
+2025-08-22,Friday,L05,Line 5 - Finishing,Finishing,Shift 3,220,19,8.64,101,Material Shortage,Assembly Error,Critical
+2025-08-23,Saturday,L05,Line 5 - Finishing,Finishing,Shift 3,148,13,8.78,116,Material Shortage,Surface Defect,Critical
+2025-08-24,Sunday,L05,Line 5 - Finishing,Finishing,Shift 3,86,7,8.14,137,Mechanical Failure,Surface Defect,Critical
+2025-08-25,Monday,L05,Line 5 - Finishing,Finishing,Shift 3,227,19,8.37,114,Mechanical Failure,Surface Defect,Critical
+2025-08-26,Tuesday,L05,Line 5 - Finishing,Finishing,Shift 3,246,20,8.13,80,Electrical Fault,Surface Defect,Critical
+2025-08-27,Wednesday,L05,Line 5 - Finishing,Finishing,Shift 3,179,15,8.38,165,Mechanical Failure,Packaging Defect,Critical
+2025-08-30,Saturday,L05,Line 5 - Finishing,Finishing,Shift 3,148,10,6.76,165,Quality Hold,Packaging Defect,Critical
+2025-08-31,Sunday,L05,Line 5 - Finishing,Finishing,Shift 3,64,6,9.38,149,Quality Hold,Surface Defect,Critical

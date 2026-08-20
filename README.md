@@ -179,30 +179,13 @@ manufacturing-operations-analytics/
 
 ## How to run the project
 
-The scripts use only the Python standard library, so no external Python packages are required.
+The repository includes a ready-to-query SQLite database at `data/manufacturing.db`. The scripts use only the Python standard library.
 
-### 1. Build the database
-
-The loader expects `calendar_data.csv`, `machine_data.csv`, and `production_data.csv` in the parent portfolio directory.
-
-```bash
-python3 src/build_database.py
-```
-
-### 2. Run the data-quality report
-
-```bash
-python3 src/quality_report.py
-```
-
-### 3. Execute a portfolio query
+### Run a SQL analysis
 
 ```bash
 sqlite3 -header -column data/manufacturing.db \
   < sql/analysis/05_overall_performance.sql
-```
-
-### 4. Export critical exceptions
 
 ```bash
 python3 src/export_critical_exceptions.py

@@ -157,28 +157,23 @@ manufacturing-operations-analytics/
 │   └── root-cause-analysis.png
 ├── data/
 │   └── manufacturing.db
-├── docs/
-│   ├── LINKEDIN_POST.md
-│   ├── LINKEDIN_PROJECT.md
-│   └── PUBLISH_TODAY.md
 ├── output/
 │   └── critical_exceptions.csv
 ├── sql/
 │   ├── 00_schema.sql
-│   ├── analysis/
-│   │   ├── 01_production_by_line.sql
-│   │   ├── 02_target_attainment.sql
-│   │   ├── 03_scrap_rate_by_line.sql
-│   │   ├── 04_downtime_by_line.sql
-│   │   ├── 05_overall_performance.sql
-│   │   ├── 06_monthly_production_trend.sql
-│   │   ├── 07_month_over_month.sql
-│   │   └── 08_critical_exceptions.sql
+│   └── analysis/
+│       ├── 01_production_by_line.sql
+│       ├── 02_target_attainment.sql
+│       ├── 03_scrap_rate_by_line.sql
+│       ├── 04_downtime_by_line.sql
+│       ├── 05_overall_performance.sql
+│       ├── 06_monthly_production_trend.sql
+│       ├── 07_month_over_month.sql
+│       └── 08_critical_exceptions.sql
 ├── src/
 │   ├── build_database.py
 │   ├── export_critical_exceptions.py
 │   └── quality_report.py
-├── .gitignore
 └── README.md
 ```
 
